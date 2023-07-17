@@ -1,0 +1,75 @@
+.cart-item {
+  display: grid;
+  align-items: center;
+  grid-column-gap: 10px;
+  padding: 32px 0 43px;
+  border-bottom: 1px solid #D7D7F9;
+
+  &__image {
+    grid-row: 1;
+    width: 64px;
+    height: 64px;
+  }
+
+  &__info {
+    grid-row: 1;
+  }
+
+  &__name {
+    display: block;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  &__price {
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  &__button {
+    width: 32px;
+    height: 32px;
+    background-color: #6B00F5;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-image: url("../../styles/assets/arrow.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &--right {
+      transform: rotate(180deg);
+    }
+
+    &:disabled {
+      opacity: 0.5;
+    }
+  }
+
+  &__amount {
+    margin: 0 15px;
+  }
+
+  &__bottom {
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-column: 2;
+  }
+
+  &__control {
+    display: flex;
+    align-items: center;
+  }
+
+  &__total-price {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 32px;
+  }
+}

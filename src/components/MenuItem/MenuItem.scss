@@ -1,0 +1,58 @@
+.menu-item {
+  &__wrapper {
+    display: flex;
+    justify-content: end;
+    background: #e1f0fe;
+    border-radius: 20px;
+    position: relative;
+    width: 375px;
+    height: 150px;
+  }
+
+  &__image {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -20px;
+    left: -17px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+  &__info {
+    margin-top: 24px;
+    margin-right: 52px;
+    width: 160px;
+    position: relative;
+  }
+
+  &__name {
+    display: block;
+    margin-bottom: 16px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  &__price {
+    display: block;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  &__button {
+    background: #6B00F5;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 4px 16px;
+    position: absolute;
+    bottom: -12px;
+    cursor: pointer;
+  }
+}

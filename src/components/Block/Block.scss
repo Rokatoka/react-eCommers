@@ -1,0 +1,13 @@
+.block {
+  width: 375px;
+  height: 812px;
+  padding: 20px 36px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  overflow-x: hidden;
+
+  &:first-child {
+    margin-right: 50px;
+  }
+}
